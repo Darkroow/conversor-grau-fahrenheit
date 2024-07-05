@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>conversor</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    style="
+      background-image: linear-gradient(
+        to bottom,
+        rgb(0, 83, 131),
+        rgb(210, 42, 243)
+      );
+      background-attachment: fixed;
+    "
+  >
+    <header>
+      <h1>Conversor graus celsius - fahrenheit</h1>
+    </header>
+    <section>
+      <div id="números">
+        <p>
+          Digite qual a temperatura em
+          <strong style="color: rgb(210, 42, 243); background-color: bisque"
+            >graus celsius</strong
+          >:
+        </p>
+        <input type="number" name="valor" id="valor" />
+      </div>
+      <div id="button">
+        <button onclick="calcular()">calcular</button>
+      </div>
+
+      <div id="res"></div>
+      <div id="piorq"></div>
+      <a href="xonversor.html">fahrenheit para graus celsius</a>
+
+      <script src="graufaren.js"></script>
+    </section>
+  </body>
+</html>

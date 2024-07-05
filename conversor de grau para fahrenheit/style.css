@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+  padding-top: 200px;
+
+  font-family: monospace;
+  /*     background-image: url('https://i.pinimg.com/736x/91/6c/77/916c771a2b4f87fa5cd50dc89366677a.jpg');
+    background-size: ;  Ajusta a imagem para cobrir toda a área 
+    background-position: center center;  Centraliza a imagem */
+  background-image: linear-gradient(to bottom, rgb(0, 83, 131), blueviolet);
+  background-attachment: fixed;
+}
+
+#res {
+  background-color: rgb(170, 255, 208);
+  border-width: 2px;
+  border: solid;
+  font-size: 25px;
+}
+
+container {
+  color: rgb(142, 142, 255);
+}
+
+div {
+  margin: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+p {
+  font-size: 25px;
+  color: aliceblue;
+}
+
+a {
+  color: rgb(250, 250, 250);
+  font-style: normal;
+  font-weight: bolder;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  background-color: #ffffff;
+}
+
+input {
+  font-size: 20px;
+}
+
+button {
+  background-color: rgb(168, 175, 190);
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
